@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ceil{
+    display: flex;
+    background-color: #F3F5F7;
+    height: 5vh;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ceil > *{
+    padding: 10px;
+}
+.navbar{
+    height: 7vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+.slider-section{
+    height:88vh;
+}
+.slider{
+    height: 62vh;
+    margin: 0 40px 0 40px;
+    background: url(./Assets/sofa.jpeg);
+    background-position: bottom;
+    background-size: cover;
+}
+.header{
+    font-size: 2em;
+}
